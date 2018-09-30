@@ -2,4 +2,5 @@
 
 
 class Numbers:
-    def
+    def calcular(self, cadena):
+        pass
