@@ -3,4 +3,7 @@
 
 class Numbers:
     def calcular(self, cadena):
-        return []
+        if cadena == "":
+            return []
+        else
+            return [1]
