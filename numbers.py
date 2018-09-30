@@ -4,4 +4,8 @@ class Numbers:
         if cadena == "":
             return []
         numbers = cadena.split(",")
-        return [len(numbers)]
+        min = numbers[0]
+        for num in numbers:
+            if num < min:
+                min = num
+        return [len(numbers), int(min)]
