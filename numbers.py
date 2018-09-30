@@ -5,5 +5,5 @@ class Numbers:
     def calcular(self, cadena):
         if cadena == "":
             return []
-        else
+        else:
             return [1]
